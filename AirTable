@@ -1,0 +1,60 @@
+
+API KEY	key3b2Iv6kflbqQug
+
+LIST RECORD	https://api.airtable.com/v0/appXAxP37CyOjn5HX/Table%201?maxRecords=3&view=Grid%20view
+
+CREATE RECORD	https://api.airtable.com/v0/appXAxP37CyOjn5HX/Table%201
+
+DELETE RECORD	https://api.airtable.com/v0/appXAxP37CyOjn5HX/Table%201
+
+npm install react-bootstrap bootstrap@4.6.0	
+
+-----------------------------------------------------------------------------------------------
+field data anggota
+
+	{dataAnggota?.map((item, index) => {
+   			return (
+       		<options key={index} value={item.id}>{item.fields.name}</options>
+   			)
+			})
+			
+-----------------------------------------------------------------------------------------
+Footer
+
+ 	<div class="container bg-secondary text-white">
+		<div class="row">
+		    <div class="col-12 py-4">
+		        &copy; 2023 Suku Dinas Penangggulangan Kebakaran Dan Penyelamatan Kota Administrasi Jakarta Pusat
+		    </div>
+		</div>
+	    </div>
+	    
+--------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+tbkebakaran
+LIST RECORD	"https://api.airtable.com/v0/appXAxP37CyOjn5HX/tbkebakaran?maxRecords=3&view=Grid%20view"
+CREATE RECORD	https://api.airtable.com/v0/appXAxP37CyOjn5HX/tbkebakaran
+DELETE RECORD	https://api.airtable.com/v0/appXAxP37CyOjn5HX/tbkebakaran
+
+tbpenyelamatan
+LIST RECORD	"https://api.airtable.com/v0/appXAxP37CyOjn5HX/tbpenyelamatan?maxRecords=3&view=Grid%20view"
+CREATE RECORD	https://api.airtable.com/v0/appXAxP37CyOjn5HX/tbpenyelamatan
+DELETE RECORD	https://api.airtable.com/v0/appXAxP37CyOjn5HX/tbpenyelamatan
+
+tbbanop
+LIST RECORD	"https://api.airtable.com/v0/appXAxP37CyOjn5HX/tbbanop?maxRecords=3&view=Grid%20view"
+CREATE RECORD	https://api.airtable.com/v0/appXAxP37CyOjn5HX/tbbanop
+DELETE RECORD	https://api.airtable.com/v0/appXAxP37CyOjn5HX/tbbanop
+
+tbsosialisasi
+LIST RECORD	"https://api.airtable.com/v0/appXAxP37CyOjn5HX/tbsosialisasi?maxRecords=3&view=Grid%20view"
+CREATE RECORD	https://api.airtable.com/v0/appXAxP37CyOjn5HX/tbsosialisasi
+DELETE RECORD	https://api.airtable.com/v0/appXAxP37CyOjn5HX/tbsosialisasi
+
+tbanggota
+LIST RECORD	"https://api.airtable.com/v0/appXAxP37CyOjn5HX/tbanggota?maxRecords=3&view=Grid%20view"
+CREATE RECORD	https://api.airtable.com/v0/appXAxP37CyOjn5HX/tbanggota
+DELETE RECORD	https://api.airtable.com/v0/appXAxP37CyOjn5HX/tbanggota
